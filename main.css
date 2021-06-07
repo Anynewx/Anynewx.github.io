@@ -9,6 +9,12 @@
 body{
 	background-color: var(--color-1); 
 	color: var(--color-2);
+	
+	display:flex; min-height:100vh; flex-direction:column;
+}
+
+content{
+	margin-bottom: auto;
 }
 
 .jumbotron{ padding:20px;}
@@ -18,10 +24,4 @@ body{
 #homegames{
 	background-color: var(--color-1); 
 	color: var(--color-2);
-}
-.footer {
-	position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
 }
