@@ -19,9 +19,8 @@ content{
 
 .jumbotron{ padding:20px;}
 
-#homeabout{background-color: var(--color-3);}
 
 #homegames{
-	background-color: var(--color-1); 
+	background-color: var(--color-3);; 
 	color: var(--color-2);
 }
