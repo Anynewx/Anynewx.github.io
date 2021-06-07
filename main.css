@@ -1,1 +1,21 @@
+:root{
+    --color-1: black;
+	--color-2: white;
+	--color-3: grey;
+	--color-4: #1B4D3E;
+	--color-5: #1B4D3E;
+}
+
+body{
+	background-color: var(--color-1); 
+	color: var(--color-2);
+}
+
 .jumbotron{ padding:20px;}
+
+#homeabout{background-color: var(--color-3);}
+
+#homegames{
+	background-color: var(--color-1); 
+	color: var(--color-2);
+}
