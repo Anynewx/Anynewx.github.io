@@ -7,7 +7,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script> 
 		$(function(){
-		  $("#includedNavbar").load("navbar.html"); 
+		  $("#includedNavbar").load("content/navbar.html"); 
 		});
 		$(function(){
 		  $("#includedCarousel").load("content/carousel.html"); 
@@ -17,7 +17,7 @@
 <body>
 <div id="includedNavbar"></div>
 <content>
-	<div class="container">
+	<div class="container" id="homets">
 		<div class="jumbotron">
 		  <h1 class="display-4">Willkommen!</h1>
 		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -26,7 +26,7 @@
 		  <a class="btn btn-primary btn-lg" href="ts3server://92.42.44.206:9011" role="button">Trete dem Teamspeak bei...</a>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="homeabout">
 		<div class="jumbotron">
 		  <h1 class="display-4">Über uns...</h1>
 		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -35,7 +35,7 @@
 		  <a class="btn btn-primary btn-lg" href="about.html" role="button">Trete dem Teamspeak bei ...</a>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="homegames">
 		<div class="row">
 			<div class="col-4">
 				<div class="jumbotron">
